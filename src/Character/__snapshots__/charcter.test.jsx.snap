@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should display the Character from initial load 1`] = `
+<div>
+  <section>
+    <article
+      aria-label="head"
+      class="head"
+      style="background-image: url(./baby-head.png); width: 150px; height: 150px; background-size: cover; background-repeat: no-repeat;"
+    />
+    <article
+      aria-label="middle"
+      class="middle"
+      style="background-image: url(./strong-middle.png); margin-right: 300px; width: 200px; height: 200px; background-size: cover; background-repeat: no-repeat;"
+    />
+    <article
+      aria-label="bottom"
+      class="bottom"
+      style="background-image: url(./twisted-bottom.png); width: 150px; height: 150px; background-size: cover; background-repeat: no-repeat;"
+    />
+  </section>
+</div>
+`;

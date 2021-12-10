@@ -2,6 +2,7 @@ export default function Character({ head, middle, bottom }) {
   return (
     <section>
       <article
+        aria-label="head"
         className="head"
         style={{
           backgroundImage: `url(./${head}-head.png)`,
@@ -12,6 +13,7 @@ export default function Character({ head, middle, bottom }) {
         }}
       />
       <article
+        aria-label="middle"
         className="middle"
         style={{
           backgroundImage: `url(./${middle}-middle.png)`,
@@ -23,6 +25,7 @@ export default function Character({ head, middle, bottom }) {
         }}
       />
       <article
+        aria-label="bottom"
         className="bottom"
         style={{
           backgroundImage: `url(./${bottom}-bottom.png)`,
