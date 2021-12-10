@@ -7,7 +7,7 @@ import CatchphraseDisplay from './CatchphraseDisplay/catchphrases';
 function App() {
   const [head, setHead] = useState('guy');
   const [middle, setMiddle] = useState('nic');
-  const [bottom, setBottom] = useState('twisted');
+  const [bottom, setBottom] = useState('lizard');
   const [catchphrases, setCatchphrase] = useState([]);
   const [newCatchphrase, setNewCatchphrase] = useState('');
 
