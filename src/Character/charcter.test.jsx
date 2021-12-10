@@ -1,5 +1,5 @@
 import { screen, render } from '@testing-library/react';
-import Character from './Character.jsx';
+import Character from './character.jsx';
 
 it('Should display the Character from initial load', () => {
   const { container } = render(<Character head="baby" middle="strong" bottom="twisted" />);
