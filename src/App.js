@@ -24,7 +24,7 @@ function App() {
         onHeadChange={setHead}
         middle={middle}
         onMiddleChange={setMiddle}
-        bottom={setBottom}
+        bottom={bottom}
         onBottomChange={setBottom}
         newCatchphrase={newCatchphrase}
         setNewCatchphrase={setNewCatchphrase}
